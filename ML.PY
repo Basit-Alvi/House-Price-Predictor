@@ -6,7 +6,7 @@ from sklearn.metrics import mean_absolute_error, r2_score
 X = [[500], [1000], [1500], [2000], [2500]]
 y = [100000, 200000, 300000, 400000, 500000]
 
-# Dataset 2: Experience vs salary
+# Dataset 2: Experience vs salary.
 A = [[2], [4], [5], [6], [8]]
 B = [50000, 100000, 120000, 150000, 200000]
 
