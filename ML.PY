@@ -26,7 +26,7 @@ model2.fit(A_train, B_train)
 pred1 = model1.predict(X_test)
 pred2 = model2.predict(A_test)
 
-# Evaluation
+# Evaluation.
 print("House Price Model:")
 print("MAE:", mean_absolute_error(y_test, pred1))
 print("R2 Score:", r2_score(y_test, pred1))
