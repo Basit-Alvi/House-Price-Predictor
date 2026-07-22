@@ -2,7 +2,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error, r2_score
 
-# Dataset 1: House size vs price
+# Dataset 1: House size vs price.
 X = [[500], [1000], [1500], [2000], [2500]]
 y = [100000, 200000, 300000, 400000, 500000]
 
